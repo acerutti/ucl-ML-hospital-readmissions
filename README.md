@@ -1,12 +1,13 @@
 # ucl-ML-hospital-readmissions
 ML Models to predict hospital readmissions with 30 days post-discharge
 
-As of 2020, diabetes was associated with 7.86 million hospital discharges in the United States (Center for Diseases Control and Prevention, 2023). The disease significantly increases the likelihood of morbidity and mortality among hospitalised patients. Furthermore, hospitalisation with diabetes escalates healthcare costs. A survey found that 22% of all hospital inpatient days were spent by people with diabetes and that hospital inpatient care accounted for half of the 174 billion USD total U.S. medical expenditures for this disease (American Diabetes Association, 2008). Thirty-day hospital readmissions are a relevant indicator of healthcare quality and are often used as a target when reducing costs (Axon and Williams, 2011). The rate of readmission among patients with diabetes is substantial, literature suggests that it ranges from a low of 7.7% to 20% (Jiang *et al.*, 2005; Robbins and Webb, 2006). Studies show that up to 55% of hospital readmissions may be due to inappropriate inpatient care or poor discharge planning, and therefore preventable (Ashton *et al.*, 1995; Oddone *et al.*, 1996).
+This repository hosts materials for an ML project aimed at predicting and reducing premature hospital readmissions. It uses data from 130 U.S. hospitals (1999-2008) from the UC Irvine Machine Learning Repository to predict 30-day readmission rates for diabetic patients. For the full report, see the report folder.
 
-This project endeavours to develop ML models predicting and potentially reduce premature hospital readmissions. The research utilises data from the UC Irvine Machine Learning Repository, representing clinical care at 130 U.S. hospitals between 1999 and 2008, to forecast the probability of diabetic patients being readmitted within 30 days post-discharge. The report can be found in the report folder here on GitHub. 
+# Diabetes has an enormous impact on the US Healthcare system
+In 2020, the U.S. recorded 7.86 million hospital discharges related to diabetes (CDC, 2023), a significant factor in patient morbidity and healthcare costs. Diabetic patients represented 22% of hospital inpatient days, with inpatient care comprising half of the $174 billion spent on diabetes (ADA, 2008). Readmissions within 30 days are a key healthcare quality measure (Axon and Williams, 2011), with diabetes-related readmission rates varying between 7.7% to 20% (Jiang et al., 2005; Robbins and Webb, 2006). Studies indicate up to 55% of readmissions may be preventable (Ashton et al., 1995; Oddone et al., 1996). *For the references see report*
 
 # How to use: 
-- `Diabetes_Final_Notebook` contains the end to end project, simply clone the repository and run it on you local machine. 
+- `Diabetes_Final_Notebook` contains the complete project. To access it, simply clone the repository and run it on your local machine. 
 - `NN3_analysis` contains the analysis for the Random Search MLP model (NN4)
-- `data_diabetes_130us_hospitals_1999_2008` contains all dataset used
+- `data_diabetes_130us_hospitals_1999_2008` contains all dataset used, source: https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
 - `diabetis_clean.csv` has the dataset after cleaning. 
